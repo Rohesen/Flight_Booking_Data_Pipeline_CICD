@@ -12,6 +12,8 @@ This project implements an **end-to-end data engineering pipeline** to process *
 
 The pipeline reads raw booking data from GCS, processes it in PySpark to create enriched datasets and aggregated insights, then loads the results into BigQuery for downstream analysis.
 
+![Architecture](Architecture-Flight_Booking_Data_Pipeline_CICD.jpg)
+
 ---
 
 ## 🛠 Tech Stack
